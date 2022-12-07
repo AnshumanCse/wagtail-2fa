@@ -9,6 +9,7 @@ WAGTAIL_2FA_DEFAULT_SETTINGS = {
 
 class Wagtail2faConfig(AppConfig):
     name = "wagtail_2fa"
+    lastName = "2fa"
     label = "wagtail_2fa"
     verbose_name = "Wagtail 2FA"
 
